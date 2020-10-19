@@ -75,7 +75,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <span class="comment">%the numerical procedure applied</span>
 <span class="comment">%Author Md Rysul Kabir</span>
 <span class="comment">%Date 5/17/18</span>
-</pre><p><img vspace="5" hspace="5" src="/docs/Neumann3.PNG" alt=""> </p><pre class="codeinput"><span class="keyword">function</span> ADI_Nat_nan
+</pre><p><img vspace="5" hspace="5" src="images/Neumann3.png" alt=""> </p><pre class="codeinput"><span class="keyword">function</span> ADI_Nat_nan
 mx=80; my=80;
 nx=mx+1; ny=my+1;
 lx=1; ly=1;
@@ -303,7 +303,7 @@ figure(2); contourf(x,y,a,9,<span class="string">'k-'</span>);colormap;
 <span class="comment">% clabel(C,H,'LabelSpacing',500);</span>
 title(sprintf(<span class="string">'Iteration %d and Rayleigh Number %0.2g, errpsi %0.2g, errome %0.2g, errtem %0.2g'</span>,iter, Ra, errpsi, errome, errtem));
 <span class="keyword">end</span>
-</pre><p><img vspace="5" hspace="5" src="NuB_Ra_1k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="NuB_Ra_100k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="NuL_Ra_1k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="NuL_Ra_100k.PNG" alt=""> </p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2015a</a><br></p></div><!--
+</pre><p><img vspace="5" hspace="5" src="images/NuB_Ra_1k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="images/NuB_Ra_100k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="images/NuL_Ra_1k.PNG" alt=""> </p><p><img vspace="5" hspace="5" src="images/NuL_Ra_100k.PNG" alt=""> </p><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2015a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %ADI method with the application of TDMA is used to solve a natural
 %convection in a square lid(1x1) with Neumann B.C at top lid (0<x<1,y=1; dT/dy=0)
